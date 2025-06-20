@@ -2,6 +2,7 @@ from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 import os
+import streamlit as st
 
 # Get the absolute path to the directory the script is in
 base_dir = os.path.dirname(os.path.abspath(__file__))
